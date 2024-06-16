@@ -7,3 +7,7 @@ django-admin startproject comprapp
 cd comprapp
 
 django-admin startapp api
+
+python3 manage.py migrate
+
+python3 ./manage.py makemigrations
